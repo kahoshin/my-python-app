@@ -1,0 +1,17 @@
+
+CARA PAKAI WEB SCRAPER (PYTHON)
+
+1. Instal library:
+   pip install -r requirements.txt
+
+2. Cara kerja:
+   Setiap website punya "struktur tulang" (HTML) yang berbeda. 
+   - Buka web target di Chrome.
+   - Klik kanan pada Nama Produk -> Inspect.
+   - Lihat Nama Tag (h1, h2, div, dll) dan Class-nya.
+   - Sesuaikan bagian 'soup.find_all' di file scraper.py dengan class tersebut.
+
+3. Jalankan:
+   python scraper.py
+
+Project by: BebyShina / KahoShin Store
